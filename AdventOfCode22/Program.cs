@@ -1,9 +1,9 @@
 ﻿using AdventOfCode22.Solutions;
 
-var exercise = "09";
+var exercise = "10";
 
 
 var inputLines = File.ReadAllLines(Path.Join(Environment.CurrentDirectory, "Inputs", exercise + ".txt"));
 
-Day9.Compute(inputLines); 
+Day10.Compute(inputLines); 
 

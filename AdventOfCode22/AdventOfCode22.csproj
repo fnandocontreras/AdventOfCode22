@@ -16,9 +16,13 @@
     <None Remove="Inputs\07.txt" />
     <None Remove="Inputs\08.txt" />
     <None Remove="Inputs\09.txt" />
+    <None Remove="Inputs\10.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Inputs\10.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Inputs\09.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
